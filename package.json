@@ -1,0 +1,33 @@
+{
+  "name": "orchestration-swagger-builder-csharp",
+  "version": "0.0.1",
+  "description": "Generates C# client SDKs based on Swagger API specifications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orchestration-nodejs/orchestration-swagger-builder-csharp.git"
+  },
+  "keywords": [
+    "orchestration",
+    "microservices",
+    "gulp"
+  ],
+  "author": "Redpoint Games Pty Ltd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orchestration-nodejs/orchestration-swagger-builder-csharp/issues"
+  },
+  "homepage": "https://github.com/orchestration-nodejs/orchestration-swagger-builder-csharp#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "fs-extra": "^0.30.0",
+    "orchestration-configuration": "0.0.1",
+    "orchestration-util-process": "0.0.1",
+    "requestify": "^0.2.3",
+    "xmldom": "^0.1.22",
+    "xpath": "0.0.23"
+  }
+}
